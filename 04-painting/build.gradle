@@ -1,0 +1,14 @@
+apply plugin: 'application'
+apply plugin: 'eclipse'
+apply plugin: 'scala'
+
+mainClassName = 'Painting'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.cra.figaro:figaro:2.1.0.0'
+}
+

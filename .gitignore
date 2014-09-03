@@ -1,5 +1,6 @@
 *.class
 *.log
+.cache
 
 # sbt specific
 .cache/
@@ -15,3 +16,31 @@ project/plugins/project/
 # Scala-IDE specific
 .scala_dependencies
 .worksheet
+
+# Gradle Files
+.gradle
+.m2
+
+# Build output directies
+/target
+*/target
+/build
+*/build
+
+# IntelliJ specific files/directories
+out
+.idea
+*.ipr
+*.iws
+*.iml
+atlassian-ide-plugin.xml
+
+# Eclipse specific files/directories
+.classpath
+.project
+.settings
+.metadata
+
+# NetBeans specific files/directories
+.nbattrs
+

@@ -1,0 +1,13 @@
+apply plugin: 'eclipse'
+apply plugin: 'scala'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.slf4j:slf4j-api:1.7.5'
+    compile 'com.cra.figaro:figaro:2.1.0.0'
+    testCompile "junit:junit:4.11"
+}
+
